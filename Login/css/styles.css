@@ -19,7 +19,7 @@ body {
 }
 
 .text-field {
-  width: 260px;
+  width: 100%;
   font-size: 14px;
   padding: 10px;
   margin-bottom: 10px;
@@ -28,7 +28,7 @@ body {
 }
 
 .submit-btn {
-  width: 260px;
+  width: 100%;
   font-size: 14px;
   padding: 10px;
   margin-bottom: 30px;
