@@ -1,11 +1,12 @@
-.box-one h2, .box-three h2,.box-five h2{
+h2{
   font-size: 30px;
   padding: 20px;
+}
+
+.box-odd{
   background: #FA987D;
 }
 
-.box-two h2,.box-four h2 {
-  font-size: 30px;
-  padding: 20px;
+.box-even{
   background: #72CCA7;
 }
