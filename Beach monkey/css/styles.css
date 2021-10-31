@@ -4,7 +4,8 @@ img {
 }
 
 
-
-/*
-이곳에 몽숭이를 이동시키는 코드를 작성하세요.
-*/
+.mongsoong{
+  position: relative;
+  bottom:100px;
+  left: 200px;
+}
