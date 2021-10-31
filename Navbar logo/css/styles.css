@@ -12,12 +12,16 @@ body {
   height: 60px;
 }
 
-#logo {
-  font-family: serif;
-  float: left;
+.helper{
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
 
-  /* 이건 지우세요 */
-  background-color: orange;
+#logo {
+  display: inline-block;
+  font-family: serif;
+  vertical-align: middle;
 }
 
 .hero-header {
@@ -29,8 +33,8 @@ body {
 }
 
 .hero-header .info {
-  /* 이건 지우세요 */
-  background-color: orange;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .hero-header .info h1 {
