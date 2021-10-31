@@ -35,8 +35,14 @@ body {
 
 /* 코드잇 광고 */
 #codeit {
+  float: left;
+  margin: 0 15px 15px 0;
+  width: 180px;
 }
 
 /* 야너두 광고 */
 #youtoo {
+  float: right;
+  margin: 0 0 15px 15px;
+  width: 180px;
 }
