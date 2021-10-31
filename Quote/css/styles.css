@@ -10,6 +10,15 @@
   margin-top: 50px;
 }
 
-/*
-이곳에 코드를 작성하세요.
-*/
+.qmark{
+  position: relative;
+  font-size: 94px;
+  margin: 0 15px;
+}
+
+.quote span:first-child{
+  top: 20px;
+}
+.quote span:nth-child(2){
+  top: 80px;
+}
