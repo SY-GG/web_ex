@@ -2,7 +2,9 @@ body {
   margin: 0;
   min-width: 768px;
   font-family: 'Noto Sans KR', sans-serif;
+  box-sizing: border-box;
 }
+
 
 /* side navbar */
 
@@ -14,6 +16,43 @@ body {
 }
 
 /* 코드를 입력하세요! */
+
+#logo{
+  width: 136px;
+  display: block;
+  margin: 30px auto 50px auto;
+}
+
+.navlist{
+  list-style: none;
+  padding-left: 22px;
+  margin-bottom: 60px;
+}
+.navlist li:not(:last-child){
+  margin-bottom: 30px;
+}
+
+.navlist li a{
+  color: white;
+  text-decoration: none;
+}
+
+.sns-icon{
+  margin: 25px auto;
+  text-align: center;
+  margin-top: 85px;
+}
+
+.sns-icon :first-child{
+  display: inline-block;
+  width: 22px;
+  margin-right: 13px;
+}
+.sns-icon :last-child{
+  display: inline-block;
+  margin: 0 0;
+  width: 25px;
+}
 
 /* main */
 
