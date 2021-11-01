@@ -3,6 +3,7 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
 }
 
+/* navbar */
 #navbar {
   padding: 0 20px;
   border-bottom: 1px solid #eee;
@@ -11,7 +12,7 @@ body {
   box-shadow: 0 1px 3px 0 rgba(0,0,0,0.50);
   height: 60px;
 }
-
+/* navbar -logo */
 #logo {
   font-family: serif;
   line-height: 60px;
@@ -20,6 +21,25 @@ body {
   vertical-align: middle;
 }
 
+/* navbar - menu */
+#menu{
+  list-style: none;
+  padding: 0 0;
+  height: 100%;
+  float: right;
+}
+#menu li{
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: middle;
+}
+
+#menu li a{
+  text-decoration: none;
+  color: black;
+}
+
+/* main */
 .hero-header {
   background-image: url("../images/hero_image.jpg");
   background-size: cover;
