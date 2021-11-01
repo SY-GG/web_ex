@@ -12,15 +12,11 @@ body {
   height: 60px;
 }
 
-.helper{
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
-}
-
 #logo {
-  display: inline-block;
   font-family: serif;
+  line-height: 60px;
+}
+#logo img{
   vertical-align: middle;
 }
 
@@ -29,12 +25,14 @@ body {
   background-size: cover;
   background-position: center center;
   height: 670px;
+  line-height: 670px;
   text-align: center;
 }
 
 .hero-header .info {
   display: inline-block;
   vertical-align: middle;
+  line-height: normal;
 }
 
 .hero-header .info h1 {
