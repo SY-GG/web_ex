@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  padding: 0 0;
+  margin: 0 0;
 }
 
 body {
@@ -7,11 +9,103 @@ body {
   min-width: 992px;
   font-family: "Helvetica";
 }
+a {
+  text-decoration: none;
+  color: #545454;
+}
+ul{
+  list-style: none;
+}
 
 /* navbar */
+#navbar {
+  height: 60px;
+  background-color: white;
+  line-height: 60px;
+}
+
+/* NAV - logo */
+#navbar img{
+  height:20px;
+  vertical-align: middle;
+  margin-left: 30px;
+}
+
+/* NAV - MENU */
+#navbar ul{
+  float: right;
+  vertical-align: middle;
+  margin-right: 15px;
+}
+#navbar ul li {
+  float: left;
+  font-family: Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 0 15px;
+}
+
 
 /* hero header */
+#header {
+  background-color: brown;
+  height: 450px;
+  background-image:url('../images/hero_header.jpg');
+  background-size: 100%;
+}
 
 /* products */
+.products{
+  text-align: center;
+}
+
+.products::after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
+.products h1{
+  font-family: Helvetica, sans-serif;
+  font-size: 24px;
+  color: #545454;
+  font-weight: bold;
+  margin: 60px 0;
+}
+
+.pro-menu{
+  width: 80%;
+  max-width: 740px;
+  margin: 0 auto;
+  height: auto;
+}
+.shopitem{
+  float: left;
+  /* background-color: gray; */
+  width: 225px;
+  margin: 0 10px 80px 10px;
+}
+
+.shopitem img{
+  height: 225px;
+  width: 225px;
+}
+
+.shopitem h2{
+  font-size: 16px;
+  font-weight: normal;
+}
+.shopitem h2:not(:last-child){
+  margin: 20px 0 4px 0;
+}
 
 /* footer */
+.footer{
+  text-align: center;
+  margin: 120px 0 80px 0;
+  /* clear: both; */
+}
+.footer img{
+  height:20px;
+  margin: 0 10px;
+}
