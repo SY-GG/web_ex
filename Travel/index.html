@@ -21,6 +21,8 @@
     $('#Tokyo').on('click', clickTokyo);
     $('#Paris').on('click', clickParis);
 
+    $(document).on('keydown', processKeyEvent);
+
     $('#photo').on('mouseenter', mouseEnterPhoto);
     $('#photo').on('mouseleave', mouseLeavePhoto);
 
@@ -62,6 +64,19 @@
     }
     function mouseLeavePhoto(){
       $('#photo').css('box-shadow', 'none')
+    }
+
+    //단축키
+    function processKeyEvent(event) {
+      if (event['key']=== '1') {
+        clickHome();
+      } else if (event['key'] === '2') {
+        clickSeoul();
+      } else if (event['key'] === '3') {
+        clickTokyo();
+      } else if (event['key'] === '4') {
+        clickParis();
+      }
     }
   </script>
 </body>
