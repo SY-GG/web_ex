@@ -7,15 +7,23 @@
 <body>
     <img src="images/logo.png" class="logo">
   <div class="menu">
-    <a id="Home" onclick="clickHome()" class="menu-item">Home</a>
-    <a id="Seoul" onclick="clickSeoul()" class="menu-item">Seoul</a>
-    <a id="Tokyo" onclick="clickTokyo()" class="menu-item">Tokyo</a>
-    <a id="Paris" onclick="clickParis()" class="menu-item">Paris</a>
+    <a id="Home" class="menu-item">Home</a>
+    <a id="Seoul" class="menu-item">Seoul</a>
+    <a id="Tokyo" class="menu-item">Tokyo</a>
+    <a id="Paris" class="menu-item">Paris</a>
   </div>
-  <img src="images/home.png" id="photo" onmouseenter="mouseEnterPhoto();" onmouseleave="mouseLeavePhoto();">
+  <img src="images/home.png" id="photo">
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script>
+    $('#Home').on('click', clickHome);
+    $('#Seoul').on('click', clickSeoul);
+    $('#Tokyo').on('click', clickTokyo);
+    $('#Paris').on('click', clickParis);
+
+    $('#photo').on('mouseenter', mouseEnterPhoto);
+    $('#photo').on('mouseleave', mouseLeavePhoto);
+
     //사진 바꿔주는 함수
     function clickHome() {
       $('#photo').attr('src', 'images/home.png');
