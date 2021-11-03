@@ -22,6 +22,10 @@ body{
   margin: 0 10px;
 }
 
+#Home{
+  font-weight: bold;
+}
+
 #photo {
   width: 90%;
 }
